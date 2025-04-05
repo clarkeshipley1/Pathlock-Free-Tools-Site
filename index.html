@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Software Tools - Pathlock</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function promptEmail(toolName) {
+            var email = prompt("Please enter your email address to learn more about " + toolName);
+            if (email) {
+                alert("Thank you! We will send more information about " + toolName + " to " + email);
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="./pathlock_logo.png" alt="Pathlock Logo" class="logo">
+        <h1>Unlock Free Compliance Insights</h1>
+        <p>Download our valuable tools and guides, crafted to provide you with actionable compliance solutions.</p>
+    </header>
+
+    <main>
+        <section class="tools">
+            <ul>
+                <li>
+                    <h3>Point in Time Enterprise Audit Solutions</h3>
+                    <p>Gain critical insights into your SAP and Oracle JD Edwards authorization landscape with Pathlock's free, point-in-time snapshot tools. Analyze SoD risks and historical configurations for your organization or clients, empowering proactive compliance and security management.</p>
+                    <button class="btn" onclick="promptEmail('Point in Time Enterprise Audit Solutions')">Learn more</button>
+                </li>
+                <li>
+                    <h3>SAP Vulnerability Assessment</h3>
+                    <p>Instantly uncover critical security risks in your financial, HR, and ERP applications with our free visibility tool. Gain the intelligence you need to take immediate action and protect your business.</p>
+                    <button class="btn" onclick="promptEmail('SAP Vulnerability Assessment')">Learn more</button>
+                </li>
+                <li>
+                    <h3>Pathlock Data Extractor: Streamlined SAP Data Export</h3>
+                    <p>Pathlock Data Extractor enables efficient downloading and exporting of SAP table data into various formats. Available in Lite and Pro versions, it offers users flexible data extraction capabilities, with the Pro version providing enhanced performance and extended features.</p>
+                    <button class="btn" onclick="promptEmail('Pathlock Data Extractor: Streamlined SAP Data Export')">Learn more</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pathlock. All rights reserved.</p>
+    </footer>
+</body>
+</html>
